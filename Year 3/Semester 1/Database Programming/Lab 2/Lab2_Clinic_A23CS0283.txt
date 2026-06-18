@@ -1,0 +1,51 @@
+#A1
+use clinicdb
+db.createCollection("appointments")
+db.createCollection("loginSessions")
+
+#A2
+#insert data into appointments collection
+db.appointments.insertMany([
+  {appointmentID:"A001", patientName:"Jackson Wang", doctor:"Dr. Goh", department:"Cardiology", status:"COMPLETED", fee:300, appointmentDate: new Date("2025-01-19")},
+  {appointmentID:"A002", patientName:"Lily Ong", doctor:"Dr. Ahmad", department:"Dermatology", status:"PENDING", fee:150, appointment: new Date("2025-01-20")},
+	{appointmentID:"A003", patientName:"Nur Aisyah", doctor:"Dr. Haziq", department:"Orthopedics", status:"COMPLETED", fee:320, appointment: new Date("2025-01-21")},
+	{appointmentID:"A004", patientName:"Siti Hamzah", doctor:"Dr. Lee", department:"Cardiology", status:"CANCELLED", fee:180, appointment: new Date("2025-01-22")},
+	{appointmentID:"A005", patientName:"Daniel Lee", doctor:"Dr. Lim", department:"Dermatology", status:"PENDING", fee:150, appointment: new Date("2025-01-23")},
+	{appointmentID:"A006", patientName:"Farah Nabila", doctor:"Dr. Kumar", department:"Orthopedics", status:"CANCELLED", fee:95, appointment: new Date("2025-01-24")}
+])
+
+#insert data into loginSessions collection
+db.loginSessions.insertMany([
+  { staffID:"S001", staffName:"Kai", role:"Doctor", status:"ACTIVE", ipAddress:"192.168.1.10", loginTime: new Date("2025-01-19T08:30:00") },
+  { staffID:"S002", staffName:"Triumph", role:"Nurse", status:"ACTIVE", ipAddress:"192.168.1.12", loginTime: new Date("2025-01-19T12:30:00") },
+  { staffID:"S003", staffName:"Izzah", role:"Nurse", status:"INACTIVE", ipAddress:"192.168.1.16", loginTime: new Date("2025-01-20T08:45:00") },
+  { staffID:"S004", staffName:"Kaison", role:"Doctor", status:"INACTIVE", ipAddress:"192.168.1.25", loginTime: new Date("2025-01-20T10:30:00") },
+  { staffID:"S005", staffName:"Jayne", role:"Nurse", status:"ACTIVE", ipAddress:"192.168.1.30", loginTime: new Date("2025-01-21T08:23:00") },
+  { staffID:"S006", staffName:"Shawn", role:"Doctor", status:"ACTIVE", ipAddress:"192.168.1.32", loginTime: new Date("2025-01-21T09:30:00") },
+])
+
+#B1
+db.appointments.find({ status:"COMPLETED", fee: {$gte: 100, $lte: 300}},
+                     { _id:0, appointmentID:1, patientName:1, department:1, fee:1}).
+  sort({department:1, fee: -1})
+
+#B2
+db.appointments.aggregate([
+  {$group: { _id:"$department", totalAppointments: {$sum: 1}, totalFees: {$sum: "$fee"}}},
+  {$sort: {totalFees:-1}}
+])
+
+#C1
+db.loginSessions.find({status: "ACTIVE"}, {_id:0, staffName:1, role:1, ipAddress:1, loginTime:1}).sort({loginTime:-1})
+
+#C2
+a) db.loginSessions.distinct("ipAddress", {status:"ACTIVE"})
+b) db.loginSessions.distinct("ipAddress", {status:"ACTIVE"}).length
+
+#D1
+db.appointments.createIndex({department:1, status:1})
+db.appointments.getIndexes()
+
+#D2
+a) db.appointments.updateMany({status:"CANCELLED"}, {$set: {status:"ARCHIVED"}})
+b) db.loginSessions.deleteMany({status:"INACTIVE"})
