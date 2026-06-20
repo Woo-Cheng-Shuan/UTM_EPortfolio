@@ -1,0 +1,500 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="486" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Lenovo\Downloads\Material Lab 2-20260429\Locations with Data.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Locations with Data.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uid" source="RecordID: Starting Value=1" type="Int32" />
+            <Field description="TextToColumns: Parsed from Column2" name="City" size="8192" source="Formula: trim(City) (BatchMacro)" type="V_String" />
+            <Field description="TextToColumns: Parsed from Column2" name="State" size="8192" source="Formula: trim(State) (BatchMacro)" type="V_String" />
+            <Field name="Store Point" size="2147483647" source="Geocoder: PortfolioExplorer_Latest Installed TomTom US_US" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Minutes" type="V_String" />
+            <Field name="a00to04_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a05to09_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a10to17_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a18to24_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a25to29_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a30to34_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a35to39_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a40to44_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a45to49_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a50to54_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a55to59_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a60to64_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a65pls_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="hhsz1_pct" source="Formula: if [CYB11VBASE] == 0 then 0 else [_CurrentField_]/[CYB11VBASE] endif" type="Double" />
+            <Field name="hhsz2_pct" source="Formula: if [CYB11VBASE] == 0 then 0 else [_CurrentField_]/[CYB11VBASE] endif" type="Double" />
+            <Field name="hhsz3_pct" source="Formula: if [CYB11VBASE] == 0 then 0 else [_CurrentField_]/[CYB11VBASE] endif" type="Double" />
+            <Field name="hhsz4_pct" source="Formula: if [CYB11VBASE] == 0 then 0 else [_CurrentField_]/[CYB11VBASE] endif" type="Double" />
+            <Field name="hhsz5pls_pct" source="Formula: if [CYB11VBASE] == 0 then 0 else [_CurrentField_]/[CYB11VBASE] endif" type="Double" />
+            <Field name="EdNoHS_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdHS_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdSomeCol_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdAssoc_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdBach_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdMstr_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdProf_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdDoc_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="IncU10_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc10to20_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc20to30_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc30to40_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc40to50_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc50to60_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc60to75_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc75to100_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc100to125_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc125to150_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc150to200_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc200to250_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc250pls_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Hisp_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="NonHisp_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="NatA_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="Asian_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="Black_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="PacIsl_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="OtrRace_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="MultiRace_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="White_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="642" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="uid" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="uid" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_uid" selected="False" rename="Right_uid" input="Right_" />
+                <SelectField field="Right_PC1race" selected="False" input="Right_" />
+                <SelectField field="Right_PC2race" selected="False" input="Right_" />
+                <SelectField field="Right_PC3race" selected="False" input="Right_" />
+                <SelectField field="Right_PC4race" selected="False" input="Right_" />
+                <SelectField field="Right_PC1Edu" selected="False" input="Right_" />
+                <SelectField field="Right_PC2Edu." selected="False" input="Right_" />
+                <SelectField field="Right_PC3Edu.." selected="False" input="Right_" />
+                <SelectField field="Right_PC1age" selected="False" input="Right_" />
+                <SelectField field="Right_PC2age." selected="False" input="Right_" />
+                <SelectField field="Right_PC3age" selected="False" input="Right_" />
+                <SelectField field="Left_PC1race" selected="False" input="Left_" />
+                <SelectField field="Left_PC2race" selected="False" input="Left_" />
+                <SelectField field="Left_PC3race" selected="False" input="Left_" />
+                <SelectField field="Left_PC4race" selected="False" input="Left_" />
+                <SelectField field="Left_PC1Edu" selected="False" input="Left_" />
+                <SelectField field="Left_PC2Edu." selected="False" input="Left_" />
+                <SelectField field="Left_PC3Edu.." selected="False" input="Left_" />
+                <SelectField field="Left_PC1age" selected="False" input="Left_" />
+                <SelectField field="Left_PC2age." selected="False" input="Left_" />
+                <SelectField field="Left_PC3age" selected="False" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="750" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Cluster</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2026-06-03 16:21:02</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2</Operand>
+              <StartDate>2026-06-03 16:21:02</StartDate>
+              <EndDate>2026-06-03 16:21:02</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Cluster] = 2</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="762" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="19">C:\BI\Cluster_Output.yxdb</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cluster_Output.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\BI\K_cluster Input.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>K_cluster Input.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uid" source="R-DATA:" type="Int32" />
+            <Field name="PC1race" source="R-DATA:" type="Double" />
+            <Field name="PC2race" source="R-DATA:" type="Double" />
+            <Field name="PC3race" source="R-DATA:" type="Double" />
+            <Field name="PC4race" source="R-DATA:" type="Double" />
+            <Field name="PC1Edu" source="R-DATA:" type="Double" />
+            <Field name="PC2Edu " source="R-DATA:" type="Double" />
+            <Field name="PC3Edu  " source="R-DATA:" type="Double" />
+            <Field name="PC1age" source="R-DATA:" type="Double" />
+            <Field name="PC2age " source="R-DATA:" type="Double" />
+            <Field name="PC3age" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="161" y="173" width="229" height="169" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>K-centroid Analysis</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>K-centroid Analysis</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings>
+            <Position x="186" y="222" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="model name">Marketing Grp</Value>
+              <Value name="the fields">PC1race + PC2race + PC3race + PC4race + PC2Edu  + PC3Edu   + PC2age  + PC3age</Value>
+              <Value name="standardize">False</Value>
+              <Value name="z score">True</Value>
+              <Value name="unit interval">False</Value>
+              <Value name="k-means">True</Value>
+              <Value name="k-medians">False</Value>
+              <Value name="neural gas">False</Value>
+              <Value name="num clus">3</Value>
+              <Value name="num seeds">10</Value>
+              <Value name="plot points">True</Value>
+              <Value name="plot centroids">False</Value>
+              <Value name="max comp">2</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="grp" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="out" size="1073741823" source="R-DATA:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Reports">
+              <RecordInfo>
+                <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+                <Field name="Sum_Dists" size="1073741823" source="R-DATA:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\K-Centroids_Cluster_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="306" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Lenovo\AppData\Local\Temp\Alteryx\Engine_12532_c4a78dda52ab454b9a39351db79ae68c_\Engine_12532_8f45b26603494f95a4c241484d060b3e~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="365" y="17" width="229" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Append Cluster</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Append Cluster</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings>
+            <Position x="390" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="clus name">Cluster</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uid" source="R-DATA:" type="Int32" />
+                <Field name="PC1race" source="R-DATA:" type="Double" />
+                <Field name="PC2race" source="R-DATA:" type="Double" />
+                <Field name="PC3race" source="R-DATA:" type="Double" />
+                <Field name="PC4race" source="R-DATA:" type="Double" />
+                <Field name="PC1Edu" source="R-DATA:" type="Double" />
+                <Field name="PC2Edu." source="R-DATA:" type="Double" />
+                <Field name="PC3Edu.." source="R-DATA:" type="Double" />
+                <Field name="PC1age" source="R-DATA:" type="Double" />
+                <Field name="PC2age." source="R-DATA:" type="Double" />
+                <Field name="PC3age" source="R-DATA:" type="Double" />
+                <Field name="Cluster" source="R-DATA:" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Append_Cluster.yxmc" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="510" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Lenovo\AppData\Local\Temp\Alteryx\Engine_12532_c4a78dda52ab454b9a39351db79ae68c_\Engine_12532_77a07501101942c38e1f1697986ad05d~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="First Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Second Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Reports" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Lab 2 Clustering</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="6ee6531b-5847-4f60-9fd1-d98062f6d0da" />
+      <Telemetry>
+        <PreviousWorkflowId value="9c2b52eb-9277-4d61-b8a4-98af979a37d1" />
+        <OriginWorkflowId value="9c2b52eb-9277-4d61-b8a4-98af979a37d1" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

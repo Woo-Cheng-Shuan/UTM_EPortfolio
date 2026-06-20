@@ -1,0 +1,1588 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="93" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="57">C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <AllowShareWrite>False</AllowShareWrite>
+            <FileNameEncoding>0</FileNameEncoding>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <IgnoreErrors>False</IgnoreErrors>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <FileFormatInner>0</FileFormatInner>
+            <LargeZipFiles>False</LargeZipFiles>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(1) Input Data
+ BI dataset.zip
+Query=US_flights_2023.csv</AnnotationText>
+          <DefaultAnnotationText>BI dataset.zip
+Query=US_flights_2023.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FlightDate" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Day_Of_Week" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Airline" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Tail_Number" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Dep_Airport" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Dep_CityName" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="DepTime_label" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Dep_Delay" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Dep_Delay_Tag" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Dep_Delay_Type" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Arr_Airport" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Arr_CityName" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Arr_Delay" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Arr_Delay_Type" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Flight_Duration" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Distance_type" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Delay_Carrier" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Delay_Weather" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Delay_NAS" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Delay_Security" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Delay_LastAircraft" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Manufacturer" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Model" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+            <Field name="Aicraft_age" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||US_flights_2023.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="213" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="57">C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <AllowShareWrite>False</AllowShareWrite>
+            <FileNameEncoding>0</FileNameEncoding>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <IgnoreErrors>False</IgnoreErrors>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <FileFormatInner>0</FileFormatInner>
+            <LargeZipFiles>False</LargeZipFiles>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(3) Input Data
+BI dataset.zip
+Query=Cancelled_Diverted_2023.csv</AnnotationText>
+          <DefaultAnnotationText>BI dataset.zip
+Query=Cancelled_Diverted_2023.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FlightDate" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Day_Of_Week" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Airline" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Tail_Number" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Cancelled" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Diverted" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Dep_Airport" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Dep_CityName" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="DepTime_label" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Dep_Delay" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Dep_Delay_Tag" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Dep_Delay_Type" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Arr_Airport" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Arr_CityName" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Arr_Delay" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Arr_Delay_Type" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Flight_Duration" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Distance_type" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Delay_Carrier" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Delay_Weather" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Delay_NAS" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Delay_Security" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+            <Field name="Delay_LastAircraft" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||Cancelled_Diverted_2023.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="345" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="57">C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <AllowShareWrite>False</AllowShareWrite>
+            <FileNameEncoding>0</FileNameEncoding>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <IgnoreErrors>False</IgnoreErrors>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <FileFormatInner>0</FileFormatInner>
+            <LargeZipFiles>False</LargeZipFiles>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(3) Input Data
+BI dataset.zip
+Query=maj us flight - january 2024...</AnnotationText>
+          <DefaultAnnotationText>BI dataset.zip
+Query=maj us flight - january 2024...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FlightDate" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Day_Of_Week" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Airline" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Tail_Number" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Dep_Airport" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Dep_CityName" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="DepTime_label" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Dep_Delay" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Dep_Delay_Tag" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Dep_Delay_Type" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Arr_Airport" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Arr_CityName" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Arr_Delay" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Arr_Delay_Type" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Flight_Duration" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Distance_type" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Delay_Carrier" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Delay_Weather" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Delay_NAS" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Delay_Security" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Delay_LastAircraft" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Manufacturer" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Model" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+            <Field name="Aicraft_age" size="254" source="File: C:\Users\User\Desktop\UTM\Y3S2\BI\Project\BI dataset.zip|||maj us flight - january 2024.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="93" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FlightDate" selected="False" />
+            <SelectField field="FlightDateTime_Out" selected="True" rename="FlightDate" />
+            <SelectField field="Day_Of_Week" selected="True" type="Int16" size="2" />
+            <SelectField field="Airline" selected="True" />
+            <SelectField field="Tail_Number" selected="True" />
+            <SelectField field="Dep_Airport" selected="True" />
+            <SelectField field="Dep_CityName" selected="True" />
+            <SelectField field="DepTime_label" selected="True" />
+            <SelectField field="Dep_Delay" selected="True" type="Double" size="8" />
+            <SelectField field="Dep_Delay_Tag" selected="True" />
+            <SelectField field="Dep_Delay_Type" selected="True" />
+            <SelectField field="Arr_Airport" selected="True" />
+            <SelectField field="Arr_CityName" selected="True" />
+            <SelectField field="Arr_Delay" selected="True" type="Double" size="8" />
+            <SelectField field="Arr_Delay_Type" selected="True" />
+            <SelectField field="Flight_Duration" selected="True" type="Double" size="8" />
+            <SelectField field="Distance_type" selected="True" />
+            <SelectField field="Delay_Carrier" selected="True" type="Double" size="8" />
+            <SelectField field="Delay_Weather" selected="True" type="Double" size="8" />
+            <SelectField field="Delay_NAS" selected="True" type="Double" size="8" />
+            <SelectField field="Delay_Security" selected="True" type="Double" size="8" />
+            <SelectField field="Delay_LastAircraft" selected="True" type="Double" size="8" />
+            <SelectField field="Manufacturer" selected="True" />
+            <SelectField field="Model" selected="True" />
+            <SelectField field="Aicraft_age" selected="True" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(4) Select</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="198" y="93" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>FlightDate</InputFieldName>
+          <Language>English</Language>
+          <Format>yyyy-MM-dd</Format>
+          <OutputFieldName>FlightDateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(5) Convert FlightDate From:
+yyyy-MM-dd</AnnotationText>
+          <DefaultAnnotationText>Convert FlightDate From:
+yyyy-MM-dd</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="198" y="345" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>FlightDate</InputFieldName>
+          <Language>English</Language>
+          <Format>yyyy-MM-dd</Format>
+          <OutputFieldName>FlightDateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(6) Convert FlightDate From:
+yyyy-MM-dd</AnnotationText>
+          <DefaultAnnotationText>Convert FlightDate From:
+yyyy-MM-dd</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="345" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FlightDate" selected="False" />
+            <SelectField field="FlightDateTime_Out" selected="True" rename="FlightDate" />
+            <SelectField field="Day_Of_Week" selected="True" type="Int16" size="2" />
+            <SelectField field="Airline" selected="True" />
+            <SelectField field="Tail_Number" selected="True" />
+            <SelectField field="Dep_Airport" selected="True" />
+            <SelectField field="Dep_CityName" selected="True" />
+            <SelectField field="DepTime_label" selected="True" />
+            <SelectField field="Dep_Delay" selected="True" type="Double" size="8" />
+            <SelectField field="Dep_Delay_Tag" selected="True" />
+            <SelectField field="Dep_Delay_Type" selected="True" />
+            <SelectField field="Arr_Airport" selected="True" />
+            <SelectField field="Arr_CityName" selected="True" />
+            <SelectField field="Arr_Delay" selected="True" type="Double" size="8" />
+            <SelectField field="Arr_Delay_Type" selected="True" />
+            <SelectField field="Flight_Duration" selected="True" type="Double" size="8" />
+            <SelectField field="Distance_type" selected="True" />
+            <SelectField field="Delay_Carrier" selected="True" type="Double" size="8" />
+            <SelectField field="Delay_Weather" selected="True" type="Double" size="8" />
+            <SelectField field="Delay_NAS" selected="True" type="Double" size="8" />
+            <SelectField field="Delay_Security" selected="True" type="Double" size="8" />
+            <SelectField field="Delay_LastAircraft" selected="True" type="Double" size="8" />
+            <SelectField field="Manufacturer" selected="True" />
+            <SelectField field="Model" selected="True" />
+            <SelectField field="Aicraft_age" selected="True" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(7) Select</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="474" y="93" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"FlightDate","Day_Of_Week","Airline","Tail_Number","Dep_Airport","Dep_CityName","DepTime_label","Dep_Delay","Dep_Delay_Tag","Dep_Delay_Type","Arr_Airport","Arr_CityName","Arr_Delay","Arr_Delay_Type","Flight_Duration","Distance_type","Delay_Carrier","Delay_Weather","Delay_NAS","Delay_Security","Delay_LastAircraft","Manufacturer","Model","Aicraft_age"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(8) Data Cleansing ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings>
+        <Position x="474" y="345" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"FlightDate","Day_Of_Week","Airline","Tail_Number","Dep_Airport","Dep_CityName","DepTime_label","Dep_Delay","Dep_Delay_Tag","Dep_Delay_Type","Arr_Airport","Arr_CityName","Arr_Delay","Arr_Delay_Type","Flight_Duration","Distance_type","Delay_Carrier","Delay_Weather","Delay_NAS","Delay_Security","Delay_LastAircraft","Manufacturer","Model","Aicraft_age"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(9) Data Cleansing ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="606" y="93" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Flight_Duration] &gt; 0
+AND [Dep_Delay] &gt;= -60
+AND [Arr_Delay] &gt;= -180
+AND NOT IsNull([Dep_Airport])
+AND NOT IsNull([Arr_Airport])
+AND NOT IsNull([Airline])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(10) Filter 
+[Flight_Duration] &gt; 0
+AND [Dep_Delay] &gt;= -60
+AND [Arr_Delay] &gt;= -180
+AND NOT IsN...</AnnotationText>
+          <DefaultAnnotationText>[Flight_Duration] &gt; 0
+AND [Dep_Delay] &gt;= -60
+AND [Arr_Delay] &gt;= -180
+AND NOT IsN...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Alteryx\Engine_31948_7d9b8700567f47a8a3692959520556dc_\Engine_31948_ccf6b4198bc443a188b0198c8dc27ebf~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(12) Browse
+Removed Record</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Alteryx\Engine_31948_7d9b8700567f47a8a3692959520556dc_\Engine_31948_5484f925b106481f917e914c06078ad4~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(13) Browse 
+Removed Record</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="738" y="81" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="FlightDate" />
+            <Field field="Tail_Number" />
+            <Field field="Dep_Airport" />
+            <Field field="DepTime_label" />
+            <Field field="Arr_Airport" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(14) Unique ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="738" y="333" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="FlightDate" />
+            <Field field="Tail_Number" />
+            <Field field="Dep_Airport" />
+            <Field field="DepTime_label" />
+            <Field field="Arr_Airport" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(15) Unique ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="846" y="381" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Alteryx\Engine_31948_7d9b8700567f47a8a3692959520556dc_\Engine_31948_f5ab5c9b0c0f4a369fa8adb76a62cdf1~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(16) Browse ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="834" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Alteryx\Engine_31948_7d9b8700567f47a8a3692959520556dc_\Engine_31948_3e369f35dd7e41b7a00b8e9942ef39d5~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(17) Browse</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="198" y="213" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>FlightDate</InputFieldName>
+          <Language>English</Language>
+          <Format>yyyy-MM-dd</Format>
+          <OutputFieldName>FlightDateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(18) Convert FlightDate From:
+yyyy-MM-dd</AnnotationText>
+          <DefaultAnnotationText>Convert FlightDate From:
+yyyy-MM-dd</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="522" y="213" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FlightDate" selected="False" />
+            <SelectField field="FlightDateTime_Out" selected="True" rename="FlightDate" />
+            <SelectField field="Day_Of_Week" selected="False" />
+            <SelectField field="Airline" selected="False" />
+            <SelectField field="Tail_Number" selected="True" />
+            <SelectField field="Cancelled" selected="True" type="Int16" size="2" />
+            <SelectField field="Diverted" selected="True" type="Int16" size="2" />
+            <SelectField field="Dep_Airport" selected="True" />
+            <SelectField field="Dep_CityName" selected="False" />
+            <SelectField field="DepTime_label" selected="True" />
+            <SelectField field="Dep_Delay" selected="False" />
+            <SelectField field="Dep_Delay_Tag" selected="False" />
+            <SelectField field="Dep_Delay_Type" selected="False" />
+            <SelectField field="Arr_Airport" selected="True" />
+            <SelectField field="Arr_CityName" selected="False" />
+            <SelectField field="Arr_Delay" selected="False" />
+            <SelectField field="Arr_Delay_Type" selected="False" />
+            <SelectField field="Flight_Duration" selected="False" />
+            <SelectField field="Distance_type" selected="False" />
+            <SelectField field="Delay_Carrier" selected="False" />
+            <SelectField field="Delay_Weather" selected="False" />
+            <SelectField field="Delay_NAS" selected="False" />
+            <SelectField field="Delay_Security" selected="False" />
+            <SelectField field="Delay_LastAircraft" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(19) Select ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1002" y="201" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="FlightDate" />
+            <Field field="Tail_Number" />
+            <Field field="Dep_Airport" />
+            <Field field="Arr_Airport" />
+            <Field field="DepTime_label" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FlightDate" />
+            <Field field="Tail_Number" />
+            <Field field="Dep_Airport" />
+            <Field field="Arr_Airport" />
+            <Field field="DepTime_label" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_FlightDate" selected="True" rename="Right_FlightDate" input="Right_" />
+                <SelectField field="Right_Tail_Number" selected="True" rename="Right_Tail_Number" input="Right_" />
+                <SelectField field="Right_Dep_Airport" selected="True" rename="Right_Dep_Airport" input="Right_" />
+                <SelectField field="Right_DepTime_label" selected="True" rename="Right_DepTime_label" input="Right_" />
+                <SelectField field="Right_Arr_Airport" selected="True" rename="Right_Arr_Airport" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(20) Join ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1206" y="201" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(21) Union ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1326" y="201" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([Cancelled]) THEN 0 ELSE [Cancelled] ENDIF" field="Cancelled" size="2" type="Int16" enabled="true" />
+            <FormulaField expression="IF IsNull([Diverted]) THEN 0 ELSE [Diverted] ENDIF" field="Diverted" size="2" type="Int16" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(22) Formula 
+Cancelled = IF IsNull([Cancelled]) THEN 0 ELSE [Cancelled] ENDIF
+Diverted = IF I...</AnnotationText>
+          <DefaultAnnotationText>Cancelled = IF IsNull([Cancelled]) THEN 0 ELSE [Cancelled] ENDIF
+Diverted = IF I...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="318" y="213" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Cancelled</Field>
+          <RegExExpression value="\.0$" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Cancelled</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>FlightDate_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(23) RegEx</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="426" y="213" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Diverted</Field>
+          <RegExExpression value="\.0$" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Diverted</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>FlightDate_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(24) RegEx ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1098" y="201" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FlightDate" selected="False" />
+            <SelectField field="Tail_Number" selected="False" />
+            <SelectField field="Dep_Airport" selected="False" />
+            <SelectField field="DepTime_label" selected="False" />
+            <SelectField field="Arr_Airport" selected="False" />
+            <SelectField field="Right_FlightDate" selected="True" rename="FlightDate" />
+            <SelectField field="Right_Tail_Number" selected="True" rename="Tail_Number" />
+            <SelectField field="Right_Dep_Airport" selected="True" rename="Dep_Airport" />
+            <SelectField field="Right_DepTime_label" selected="True" rename="DepTime_label" />
+            <SelectField field="Right_Arr_Airport" selected="True" rename="Arr_Airport" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(25) Select ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1554" y="321" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(26) Union ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1686" y="321" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IIF(DateTimeYear([FlightDate]) = 2024, &quot;2024&quot;, &quot;2023&quot;)" field="Data_Year" size="10" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(27) Formula 
+Data_Year = IIF(DateTimeYear([FlightDate]) = 2024, "2024", "2023")
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Data_Year = IIF(DateTimeYear([FlightDate]) = 2024, "2024", "2023")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1818" y="321" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Dep_Delay] &lt;= 0 THEN &quot;On Time&quot;&#xA;ELSEIF [Dep_Delay] &lt;= 15 THEN &quot;Minor (1-15 min)&quot;&#xA;ELSEIF [Dep_Delay] &lt;= 45 THEN &quot;Moderate (16-45 min)&quot;&#xA;ELSEIF [Dep_Delay] &lt;= 120 THEN &quot;Severe (46-120 min)&quot;&#xA;ELSE &quot;Critical (&gt;120 min)&quot;&#xA;ENDIF" field="Delay_Severity" size="20" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(28) Formula 
+Delay severity classification</AnnotationText>
+          <DefaultAnnotationText>Delay_Severity = IF [Dep_Delay] &lt;= 0 THEN "On Time"
+ELSEIF [Dep_Delay] &lt;= 15 THE...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1926" y="321" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Dep_Delay] &lt;= 0 THEN &quot;No Delay&quot;&#xA;ELSEIF [Delay_Weather] &gt;= [Delay_Carrier]&#xA;AND [Delay_Weather] &gt;= [Delay_NAS]&#xA;AND [Delay_Weather] &gt;= [Delay_Security]&#xA;AND [Delay_Weather] &gt;= [Delay_LastAircraft]&#xA;THEN &quot;Weather&quot;&#xA;ELSEIF [Delay_Carrier] &gt;= [Delay_NAS]&#xA;AND [Delay_Carrier] &gt;= [Delay_Security]&#xA;AND [Delay_Carrier] &gt;= [Delay_LastAircraft]&#xA;THEN &quot;Carrier&quot;&#xA;ELSEIF [Delay_NAS] &gt;= [Delay_Security]&#xA;AND [Delay_NAS] &gt;= [Delay_LastAircraft]&#xA;THEN &quot;NAS (Air Traffic)&quot;&#xA;ELSEIF [Delay_LastAircraft] &gt;= [Delay_Security]&#xA;THEN &quot;Late Aircraft&quot;&#xA;ELSE &quot;Security&quot;&#xA;ENDIF" field="Primary_Delay_Cause" size="30" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(29) Formula 
+Primary delay cause</AnnotationText>
+          <DefaultAnnotationText>Primary_Delay_Cause = IF [Dep_Delay] &lt;= 0 THEN "No Delay"
+ELSEIF [Delay_Weather]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2046" y="321" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Dep_Airport] + &quot; → &quot; + [Arr_Airport]" field="Route" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="DateTimeMonth([FlightDate])" field="Month_Num" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="IF [Month_Num] IN (12,1,2) THEN &quot;Winter&quot;&#xA;ELSEIF [Month_Num] IN (3,4,5) THEN &quot;Spring&quot;&#xA;ELSEIF [Month_Num] IN (6,7,8) THEN &quot;Summer&quot;&#xA;ELSE &quot;Fall&quot;&#xA;ENDIF" field="Season" size="10" type="V_String" enabled="true" />
+            <FormulaField expression="[Day_Of_Week] IN (6,7)" field="Is_Weekend" size="1" type="Bool" enabled="true" />
+            <FormulaField expression="IF [Aicraft_age] &lt;= 5 THEN &quot;New (0-5 yrs)&quot;&#xA;ELSEIF [Aicraft_age] &lt;= 15 THEN &quot;Mid-life (6-15 yrs)&quot;&#xA;ELSE &quot;Aging (16+ yrs)&quot;&#xA;ENDIF" field="Aircraft_Age_Group" size="20" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(30) Formula 
+Route key &amp; Month/Season fields</AnnotationText>
+          <DefaultAnnotationText>Route = [Dep_Airport] + " → " + [Arr_Airport]
+Month_Num = DateTimeMonth([FlightD...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2166" y="320" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IIF([Arr_Delay] &lt;= 15, &quot;On Time&quot;, &quot;Delayed&quot;)" field="OTP_Flag" size="10" type="V_String" enabled="true" />
+            <FormulaField expression="MAX(0, [Delay_Carrier]) +&#xA;MAX(0, [Delay_Weather]) +&#xA;MAX(0, [Delay_NAS]) +&#xA;MAX(0, [Delay_Security]) +&#xA;MAX(0, [Delay_LastAircraft])" field="Total_Delay_Minutes" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+ (31) Formula 
+On-Time Performance flag]]></AnnotationText>
+          <DefaultAnnotationText>OTP_Flag = IIF([Arr_Delay] &lt;= 15, "On Time", "Delayed")
+Total_Delay_Minutes = MA...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="2310" y="453" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Route" action="GroupBy" rename="Route" />
+            <SummarizeField field="Dep_Airport" action="GroupBy" rename="Dep_Airport" />
+            <SummarizeField field="Arr_Airport" action="GroupBy" rename="Arr_Airport" />
+            <SummarizeField field="Airline" action="GroupBy" rename="Airline" />
+            <SummarizeField field="Dep_Delay" action="Avg" rename="Avg_Dep_Delay" />
+            <SummarizeField field="Arr_Delay" action="Avg" rename="Avg_Arr_Delay" />
+            <SummarizeField field="FlightDate" action="Count" rename="Flight_Count" />
+            <SummarizeField field="Delay_Weather" action="Avg" rename="Avg_Delay_Weather" />
+            <SummarizeField field="Delay_Carrier" action="Avg" rename="Avg_Delay_Carrier" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(38) Summarize ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="2430" y="452" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>Flight_Count</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2026-05-21 03:33:41</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>100</Operand>
+              <StartDate>2026-05-21 03:33:41</StartDate>
+              <EndDate>2026-05-21 03:33:41</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(39) Filter 
+[Flight_Count] &gt;= 100</AnnotationText>
+          <DefaultAnnotationText>[Flight_Count] &gt;= 100</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="606" y="345" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Flight_Duration] &gt; 0
+AND [Dep_Delay] &gt;= -60
+AND [Arr_Delay] &gt;= -180
+AND NOT IsNull([Dep_Airport])
+AND NOT IsNull([Arr_Airport])
+AND NOT IsNull([Airline])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(11) Filter 
+[Flight_Duration] &gt; 0
+AND [Dep_Delay] &gt;= -60
+AND [Arr_Delay] &gt;= -180
+AND NOT IsN...</AnnotationText>
+          <DefaultAnnotationText>[Flight_Duration] &gt; 0
+AND [Dep_Delay] &gt;= -60
+AND [Arr_Delay] &gt;= -180
+AND NOT IsN...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2166" y="488" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\User\Desktop\UTM\Y3S2\BI\Project\FlightDelay_Master.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(40) Output Data 
+FlightDelay_Master.csv</AnnotationText>
+          <DefaultAnnotationText>FlightDelay_Master.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2670" y="440" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\User\Desktop\UTM\Y3S2\BI\Project\Route_Delay_Ranking.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>(43) Output Data 
+Route_Delay_Ranking.csv</AnnotationText>
+          <DefaultAnnotationText>Route_Delay_Ranking.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2538" y="440" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Avg_Dep_Delay" selected="True" type="FixedDecimal" size="19.2" />
+            <SelectField field="Avg_Arr_Delay" selected="True" type="FixedDecimal" size="19.2" />
+            <SelectField field="Avg_Delay_Weather" selected="True" type="FixedDecimal" size="19.2" />
+            <SelectField field="Avg_Delay_Carrier" selected="True" type="FixedDecimal" size="19.2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[(46) Select ]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="2417" y="54" width="787" height="341" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Airline-level KPI</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Airline-level KPI</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="2634" y="295" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Airline" action="GroupBy" rename="Airline" />
+                <SummarizeField field="Data_Year" action="GroupBy" rename="Data_Year" />
+                <SummarizeField field="Season" action="GroupBy" rename="Season" />
+                <SummarizeField field="Dep_Delay" action="Avg" rename="Avg_Dep_Delay" />
+                <SummarizeField field="Arr_Delay" action="Avg" rename="Avg_Arr_Delay" />
+                <SummarizeField field="Total_Delay_Minutes" action="Sum" rename="Total_Delay_Minutes" />
+                <SummarizeField field="FlightDate" action="Count" rename="Total_Flights" />
+                <SummarizeField field="OTP_Flag" action="CountDistinct" rename="CountDistinct_OTP_Flag" />
+                <SummarizeField field="Cancelled" action="Sum" rename="Total_Cancelled" />
+                <SummarizeField field="Diverted" action="Sum" rename="Total_Diverted" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[(32) Summarize ]]></AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="2442" y="200" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>OTP_Flag</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2026-05-21 03:10:34</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2026-05-21 03:10:34</StartDate>
+                  <EndDate>2026-05-21 03:10:34</EndDate>
+                  <Operand>Delayed</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>(33) Filter 
+[OTP_Flag] = "Delayed"</AnnotationText>
+              <DefaultAnnotationText>[OTP_Flag] = "Delayed"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="2538" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Airline" action="GroupBy" rename="Airline" />
+                <SummarizeField field="Data_Year" action="GroupBy" rename="Data_Year" />
+                <SummarizeField field="Season" action="GroupBy" rename="Season" />
+                <SummarizeField field="FlightDate" action="Count" rename="Arr_Delay_GT15_Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[(34) Summarize 
+]]></AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="2778" y="116" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Airline" />
+                <Field field="Data_Year" />
+                <Field field="Season" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Airline" />
+                <Field field="Data_Year" />
+                <Field field="Season" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Airline" selected="False" rename="Right_Airline" input="Right_" />
+                    <SelectField field="Right_Data_Year" selected="False" rename="Right_Data_Year" input="Right_" />
+                    <SelectField field="Right_Season" selected="False" rename="Right_Season" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[(35) Join ]]></AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="2886" y="116" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="(([Total_Flights] - [Total_Cancelled] - [Arr_Delay_GT15_Count]) / [Total_Flights]) * 100" field="OTP_Pct" size="8" type="Double" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>(36) Formula 
+OTP_Pct = (([Total_Flights] - [Total_Cancelled] - [Arr_Delay_GT15_Count]) / [Tot...</AnnotationText>
+              <DefaultAnnotationText>OTP_Pct = (([Total_Flights] - [Total_Cancelled] - [Arr_Delay_GT15_Count]) / [Tot...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="3078" y="116" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\User\Desktop\UTM\Y3S2\BI\Project\Airline_KPIs.csv</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+                <SuppressBlankFile>False</SuppressBlankFile>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>(41) Output Data 
+Airline_KPIs.csv</AnnotationText>
+              <DefaultAnnotationText>Airline_KPIs.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2994" y="116" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Avg_Dep_Delay" selected="True" type="FixedDecimal" size="19.2" />
+                <SelectField field="Avg_Arr_Delay" selected="True" type="FixedDecimal" size="19.2" />
+                <SelectField field="OTP_Pct" selected="True" type="FixedDecimal" size="19.2" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[(45) Select ]]></AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output26" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output26" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="False" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Duplicates" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Unique" />
+      <Destination ToolID="20" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Duplicates" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="15" Connection="Unique" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="20" Connection="Left" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Join" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="True" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="False" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="35" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="True" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Join" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>BI_Project_Flow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="f538e0cf-4f24-487a-8515-53bf6dc3d8cf" />
+      <Telemetry>
+        <PreviousWorkflowId value="2e3e1e63-a61f-4fb2-98b0-e003a5d48fdc" />
+        <OriginWorkflowId value="2e3e1e63-a61f-4fb2-98b0-e003a5d48fdc" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
