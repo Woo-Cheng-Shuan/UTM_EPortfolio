@@ -2,6 +2,14 @@
 
 Welcome to my academic portfolio! This repository documents my learning journey throughout my Bachelor of Computer Science (Data Engineering) at Universiti Teknologi Malaysia (UTM).
 
+## 🌐 Quick Access
+
+| Platform | Link |
+|-----------|-----------|
+| Portfolio Website | https://woo-cheng-shuan.github.io/ |
+| GitHub Profile | https://github.com/Woo-Cheng-Shuan |
+| LinkedIn | https://www.linkedin.com/in/cheng-shuan-woo-08534329a/ |
+
 ## 📈 Academic Timeline
 
 ### 🌱 Year 1 - Building the Foundation
