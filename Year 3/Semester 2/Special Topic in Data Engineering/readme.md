@@ -1,1 +1,9 @@
+## 💭 Reflection
 
+Special Topics in Data Engineering has been one of the most meaningful and practical courses throughout my degree journey. Through the five tutorials, I was introduced to various technologies and concepts used in modern data engineering, including cloud computing, Apache Spark, deep learning, AI-assisted development, and business intelligence. These hands-on activities provided valuable exposure to real-world tools and workflows beyond what is typically covered in traditional coursework.
+
+The industry talks by TM and iZeno offered useful insights into current industry trends, emerging technologies, and the skills expected from future data professionals. In addition, the industry visit to PPG provided a clearer understanding of how technology and data are applied in an actual business environment. Listening to industry practitioners and interacting with professionals helped bridge the gap between academic learning and industry expectations.
+
+The highlight of the course was the PPG industry project, where the knowledge gained throughout the semester was applied to solve a real business problem. Through the project, experience was gained in data engineering, business intelligence, data modelling, cloud technologies, and stakeholder-oriented solution design. It also strengthened teamwork, communication, and problem-solving skills.
+
+Overall, this course successfully consolidated many of the technical and professional skills that have been developed throughout my studies. More importantly, it provided valuable preparation for my upcoming industrial training by exposing me to the technologies, workflows, and industry practices that are commonly used in the field. The knowledge and experiences gained from this course have increased my confidence and readiness to take the next step into the professional world.
